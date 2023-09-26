@@ -1,0 +1,195 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    max-width: 650px;
+    max-height: 500px;
+    margin: 0 auto;
+    border-radius: 14px;
+     
+}
+
+.left-card img {
+    height: 500px;
+    width: 320px;
+    border-radius: 14px 0 0 14px;
+    background-color: white;
+    
+}
+
+.right-card {
+    width: 235px;
+    background: #ffffff;
+    margin-left: 30px;
+    margin-right: 55px;
+    border-radius: 14px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 14px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    color: hsl(228, 12%, 48%);
+    
+}
+h1 {
+    font-family: 'Fraunces', serif;
+    padding-bottom: 25px;
+    font-size: 37px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 25px;
+    padding-bottom: 20px;
+    color: hsl(228, 12%, 48%);
+    
+}
+
+span {
+    color: hsl(158, 36%, 37%);
+    
+}
+
+.discounted-price {
+    font-family: 'Fraunces', serif;
+    font-size: 40px;
+
+}
+
+.normal-price {
+    
+    text-decoration: line-through;
+    font-size: 13px;
+    margin-left: 15px;
+    margin-top: 20px;
+    position: absolute;
+    color: hsl(228, 12%, 48%);
+}
+
+button {
+    
+    background-color: hsl(158, 36%, 37%);
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 50px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    
+}
+
+button:hover {
+    background-color: hsl(159, 92%, 10%);
+}
+
+.fas {
+    margin-right: 10px;
+}
+
+.attribution {
+    font-size: 16px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    color: black;
+  }
+
+.attribution a { color: hsl(228, 45%, 44%);
+    text-decoration: none; }
+   
+   .attribution a:hover {
+       color: red;
+   }
+
+
+
+.left-card-mobile {
+    display: none;
+}
+
+/* responsive */
+
+@media screen and (max-width: 740px) {
+
+    .attribution {
+        display: none;
+    }
+
+    body {
+        margin-top: -120px;
+    }
+    .container {
+        flex-direction: column;
+        background-color: white;
+        max-width: 600px;
+        max-height: 500px;
+        width: 350px;
+        border-radius: 0;
+        
+
+    }
+
+    
+    .left-card img {
+        
+    display: none;
+    
+    }
+
+    .left-card-mobile {
+        display: block;
+    }
+    .left-card-mobile img {
+        width: 350px;
+        height: 270px;
+        border-radius: 12px 12px 0 0;
+    }
+    
+    .right-card {
+        width: 350px;
+        background: #ffffff;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 25px;
+    }
+
+    h1 {
+        font-family: 'Fraunces', serif;
+        padding-bottom: 20px;
+        font-size: 30px;
+    }
+
+    p {
+        margin-right: 15px;
+    }
+    
+}
+
+    
