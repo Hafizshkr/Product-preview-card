@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/Hafizshkr/Product-preview-card)
-- Live Site URL: [Vercel](https://vercel.com/hafizshkrs-projects/product-preview-card/6DEGS9JWVJ2beryBVwbwA6SL3jjX)
+- Live Site URL: [Vercel](https://product-preview-card-git-main-hafizshkrs-projects.vercel.app/)
 
 ## My process
 
